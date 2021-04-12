@@ -2,44 +2,10 @@ import React from 'react'
 import IconSocial from './components/IconSocial/IconSocial'
 import Infor from './components/Infor/Infor'
 import InforLanguage from './components/InforLanguage/InforLanguage'
-import ListItem from './components/ListItem/ListItem'
-import { Link } from 'react-router-dom'
+
 
 export default function Header() {
-    const home = [
-        {
-            id: 1,
-            title: "Default",
-        },
-        {
-            id: 2,
-            title: "Classic",
-        },
-        {
-            id: 3,
-            title: "Fashion",
-        },
-        {
-            id: 4,
-            title: "Boxed",
-        },
-        {
-            id: 5,
-            title: "Simple",
-        },
-        {
-            id: 6,
-            title: "Asymmetric",
-        },
-        {
-            id: 7,
-            title: "Sidenav",
-        },
-        {
-            id: 8,
-            title: "Landing",
-        },
-    ]
+
 
     return (
         <>
